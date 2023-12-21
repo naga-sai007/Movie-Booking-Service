@@ -1,0 +1,16 @@
+# config.yaml
+database:
+  host: "127.0.0.1"
+  port: 3306
+  username: "root"
+  password: "1234" #example values
+  dbname: "movie-booking-service"
+
+showservice:
+  geturl: "http://127.0.0.1:3002/shows/"  #Get request (GET SHOW BY ID)---no authentication needed
+  updateurl: "http://127.0.0.1:3002/shows/tickets/" #Put request (UPDATE TICKETS IN SHOW TABLE)--authentication not yet enabled
+userservice:
+  userurl: "http://127.0.0.1:3000/users/"  #Get request (GET USER BY ID) Need User Authentication
+secretKey: "your-secret-key"
+
+apiKey: "my-api-key"
