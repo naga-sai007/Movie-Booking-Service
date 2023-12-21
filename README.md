@@ -6,3 +6,4 @@ User authentication and authorization enabled using Jwt token.
 Error Handling with user-friendly messages.
 Encryptions and decryptions of needed entities.
 Each service having configuration file for reference (with dummy values) which serve the purpose of giving runtime values (no hardcoded values in the code).
+Due to size of the project being less uploaded all the microservices into a single repository (each can be deployed standalone).
