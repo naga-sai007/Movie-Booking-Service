@@ -1,9 +1,0 @@
-go 1.21.5
-
-use (
-	.
-	./Theatre-Service
-	./User-Service
-	./Movie-Service
-	./Booking-Service
-)
